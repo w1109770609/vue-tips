@@ -1,0 +1,39 @@
+.toast {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.toast .toastItem {
+  color: #fff;
+  font-size: 0.4rem;
+  padding: .1rem .8rem;
+  border-radius: .8rem;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 3px;
+}
+
+.toast-enter {
+  opacity: 0;
+}
+
+.toast-enter-to {
+  opacity: 1;
+}
+
+.toast-enter-active {
+  transition: opacity 1s;
+}
+
+.toast-leave {
+  opacity: 1;
+}
+
+.toast-leave-to {
+  opacity: 0;
+}
+
+.toast-leave-active {
+  transition: opacity 1s;
+}
